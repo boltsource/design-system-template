@@ -3,7 +3,7 @@ import { XPCard, XPButton } from "@xproduct/ui";
 import { Text, View } from "react-native";
 
 export default {
-  title: "XPButton",
+  title: "XPCard",
   component: XPCard,
 };
 
