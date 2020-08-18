@@ -9,6 +9,7 @@
   "scripts": {
     "dev:mobile": "yarn workspace @xproduct/mobile start",
     "dev:site": "yarn workspace @xproduct/site start",
-    "clean:all": "yarn workspace @xproduct/ui clean"
+    "dev:ui": "yarn workspace @xproduct/ui dev:docs",
+    "clean:all": "yarn workspace @xproduct/ui clean && yarn workspace @xproduct/site clean"
   }
 }

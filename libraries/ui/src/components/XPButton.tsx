@@ -12,10 +12,12 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     borderRadius: 5,
     height: 52,
+    padding: 16,
     backgroundColor: "#3300dd",
   },
   text: {
     color: "#fff",
+    fontSize: 16,
   },
 });
 
