@@ -1,0 +1,31 @@
+{
+  "name": "@xproduct/ui",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "dev:docs": "start-storybook -p 4000",
+    "clean": "rm -rf ./dist && rm -rf ./build",
+    "build": "tsc -p tsconfig.build.json && build-storybook -c .storybook -o build"
+  },
+  "dependencies": {
+    "react-native-web": "~0.11.7"
+  },
+  "peerDependencies": {
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "~0.62.2"
+  },
+  "devDependencies": {
+    "@storybook/react": "^6.0.12",
+    "@types/react-native": "0.62.2",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-react-native-web": "~0.11.7",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "~0.62.2",
+    "typescript": "~3.9.5"
+  }
+}
